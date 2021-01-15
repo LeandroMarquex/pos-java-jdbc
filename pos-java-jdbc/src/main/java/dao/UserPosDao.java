@@ -77,4 +77,8 @@ public class UserPosDao {
 		}
 		return retorno;
 	}
+	
+	public void atualizar(Userposjava userposjava) {
+		String sql = "Update userposjava set nome = 'nome atualizado' whee id = " + userposjava.getId();
+	}
 }
